@@ -130,7 +130,7 @@ export const translations = {
       cta: "Get in Touch",
     },
     footer: {
-      logo: "PM Portfolio",
+      logo: "Fumihito Umekita",
       sub: "Project Manager · Tech-Savvy · End-to-End Delivery",
     },
   },
@@ -263,7 +263,7 @@ export const translations = {
       cta: "お問い合わせ",
     },
     footer: {
-      logo: "PMポートフォリオ",
+      logo: "梅北 文仁",
       sub: "プロジェクトマネージャー · 技術理解 · 一気通貫デリバリー",
     },
   },
