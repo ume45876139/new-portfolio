@@ -84,6 +84,55 @@ body {
   background: #e8f0fe;
 }
 
+/* ── Language Toggle ────────────────────────────────── */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.lang-toggle:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.lang-toggle.scrolled {
+  background: #e8f0fe;
+  border-color: #c7d9fb;
+  color: #64748b;
+}
+
+.lang-toggle.scrolled:hover {
+  background: #d1e3fd;
+  color: #0f3460;
+}
+
+.lang-active {
+  color: white;
+}
+
+.lang-toggle.scrolled .lang-active {
+  color: #0f3460;
+}
+
+.lang-divider {
+  opacity: 0.4;
+  font-weight: 300;
+}
+
 @media (max-width: 640px) {
   .nav-links {
     display: none;
