@@ -169,7 +169,7 @@ export default function App() {
               <div key={category} className="card">
                 <h3>{category}</h3>
                 <div className="badges">
-                  {items.map((item) => (
+                  {(items as readonly string[]).map((item) => (
                     <span key={item} className="badge">{item}</span>
                   ))}
                 </div>
